@@ -1,0 +1,42 @@
+@import 'tailwindcss';
+@tailwind utilities;
+
+@theme {
+    --primary-color: #00ACAC;
+    --secondary-color: #0071A9;
+    --tertiary-color: #FFC02B;
+    --quaternary-color: #012D3E;
+}
+
+@layer utilities {
+    .color-primario {
+    color: var(--primary-color);
+    }
+    .color-secundario {
+    color: var(--secondary-color);
+    }
+    .color-terciario {
+    color: var(--tertiary-color);
+    }
+
+    .bg-primario {
+    background-color: var(--primary-color);
+    }
+    .bg-secundario {
+    background-color: var(--secondary-color);
+    }
+    .bg-terciario {
+    background-color: var(--tertiary-color);
+    }
+    .bg-cuarto {
+    background-color: var(--quaternary-color);
+    }
+}
+
+hr {
+  height: 2px; /* Ajusta el grosor de la línea */
+  background-color: var(--tertiary-color); /* Color base de la línea */
+  border: none; /* Elimina cualquier borde predeterminado */
+  box-shadow: 0 0 10px rgb(0, 255, 0), 0 0 20px var(--color-secundario); /* Efecto de brillo */
+  transition: all 0.3s ease; /* Transición suave para cambios */
+}
