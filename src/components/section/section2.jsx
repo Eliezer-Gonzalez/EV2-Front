@@ -1,7 +1,7 @@
 import img1 from '../../assets/Img/taller-comunitario.jpg';
 import img2 from '../../assets/Img/taller-acondicionamiento-fisico.jpg';
 import img3 from '../../assets/Img/movilizacion-para-estudiantes.jpg';
-import Carrucel from './Carrucel';
+import Carrucel from './Carrusel';
 
 const Section2 = () => (
     <section className="bg-secundario pb-15 mx-5">

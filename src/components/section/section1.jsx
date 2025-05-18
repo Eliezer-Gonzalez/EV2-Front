@@ -1,6 +1,6 @@
 import bgImage from '../../assets/Fondo.png';
 import im1 from '../../assets/Img/Permiso-circulacion-grande.jpeg';
-import Carrucel from './Carrucel2.jsx';
+import Carrucel from './Carrusel2.jsx';
 
 const Section1 = () => (
     <section className="relative py-25 xl:py-30 w-full h-full grid items-center justify-center overflow-hidden">
