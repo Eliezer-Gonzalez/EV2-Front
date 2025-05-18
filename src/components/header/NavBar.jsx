@@ -5,7 +5,7 @@ const links = [
   { label: "Home", href: "#" },
   { label: "Municipio", href: "#" },
   { label: "Unidades Municipales", href: "#" },
-  { label: "Contactos", href: "#" },
+  { label: "Contactos", href: "#contacto" },
 ];
 
 export const NavBar = () => {
