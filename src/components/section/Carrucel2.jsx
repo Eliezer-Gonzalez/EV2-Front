@@ -41,7 +41,7 @@ const Carrucel = () => {
       <img
         src={slides[currentIndex].url}
         alt={`Beca ${currentIndex + 1}`}
-        className="h-[305px] rounded-2xl shadow-lg object-contain transition-all duration-3000"
+        className="w-full h-full rounded-2xl shadow-lg object-cover transition-all duration-300"
       />
       {/* Left Arrow */}
       <div className='hidden group-hover:block absolute top-1/2 -translate-y-1/2 left-2 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer outline-none'>
